@@ -13,18 +13,18 @@
     "pages:dev": "npx wrangler pages dev .vercel/output/static --compatibility-date=2023-12-18 --compatibility-flag=nodejs_compat"
   },
   "dependencies": {
+    "@cloudflare/next-on-pages": "https://prerelease-registry.devprod.cloudflare.dev/next-on-pages/runs/7409541566/npm-package-next-on-pages-612",
     "next": "14.0.4",
+    "next-auth": "^5.0.0-beta.4",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.8.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
-    "eslint-plugin-next-on-pages": "^1.8.3",
     "typescript": "^5",
     "vercel": "^33.0.2"
   }
